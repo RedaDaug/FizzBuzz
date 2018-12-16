@@ -21,7 +21,9 @@ function printNumbers(){
 	n += 1;  
 	}
 	
-	document.getElementById("results").innerHTML = output;
+	var textOutput = output.join(', ');
+	
+	document.getElementById("results").innerHTML = textOutput;
 	document.getElementById('results').setAttribute("style","color:gray");
 	
 	
