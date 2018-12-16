@@ -1,0 +1,25 @@
+.container {
+	color: #484848;
+	height: 90vh;
+	text-align: center;
+	padding-top: 30px;
+}
+.btn {
+	background-color: #26aa26;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	-webkit-box-shadow: 1px 1px;
+	box-shadow: 1px 1px;
+}
+
+.btn:hover {
+	background-color: #28b728;
+}
+
+.results {
+	max-width: 845px;
+	margin: 20px auto 0 auto;
+	font-size: 3rem;
+	word-wrap: break-word;
+}
